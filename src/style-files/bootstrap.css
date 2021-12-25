@@ -48,6 +48,8 @@ header {
     padding: 24px 0
 }
 
+
+
 header .header_left .header_left__logo {
     display: flex;
     align-items: center;
@@ -86,6 +88,7 @@ header .header_right .header_telegram {
     display: flex;
     align-items: center;
     column-gap: 12px;
+    /* flex: 20 1 ; */
 }
 
 
@@ -5507,29 +5510,32 @@ section {
     header {
         padding: 15px 0
     }
+
+    .header_left__logo {
+        width: 150px;
+    }
     
     header .header_right {
         flex-direction: column;
         align-items: center
     }
+
     
     header .header_right .header_telegram svg {
         width: 25px;
         height: 25px;
-        margin-left: 60px;
+
     }
     
     header .header_right .header_telegram span {
         font-size: 13px;
+        margin-bottom: 5px;
     }
 
-    header .header_right .header_phone {
-        margin-left: 38px;
-        margin-top: 5px;
-    }
     
     header .header_right .header_phone a {
-        font-size: 16px
+        font-size: 16px;
+        margin-right: 20px;
     }
     
     header .header_right .header_phone svg {
