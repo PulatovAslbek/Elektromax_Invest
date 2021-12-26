@@ -88,7 +88,6 @@ header .header_right .header_telegram {
     display: flex;
     align-items: center;
     column-gap: 12px;
-    /* flex: 20 1 ; */
 }
 
 
@@ -160,8 +159,6 @@ header .header_right .header_phone a b {
 }
 
 .hero .hero_right img {
-    -webkit-transform: translateY(5%);
-    -ms-transform: translateY(5%);
     transform: translateY(5%)
 }
 
@@ -689,11 +686,7 @@ header .header_right .header_phone a b {
 }
 
 .contacts .contact_right .contact_right_body .item .txt ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-column-gap: 12px;
-    -moz-column-gap: 12px;
     column-gap: 12px
 }
 
@@ -748,8 +741,6 @@ iframe {
     position: absolute;
     top: 50%;
     background-color: #81d100;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
     transition: all .3s
 }
 
@@ -780,8 +771,6 @@ iframe {
 }
 
 .faq .acc-head.active::before {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     transform: rotate(90deg)
 }
 
@@ -800,14 +789,8 @@ footer .row {
 }
 
 footer .footer_phone {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-column-gap: 12px;
-    -moz-column-gap: 12px;
     column-gap: 12px
 }
 
@@ -823,23 +806,13 @@ footer .footer_phone a b {
 }
 
 footer .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-column-gap: 12px;
-    -moz-column-gap: 12px;
     column-gap: 12px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center
 }
 
 footer .social ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-column-gap: 12px;
-    -moz-column-gap: 12px;
     column-gap: 12px
 }
 
